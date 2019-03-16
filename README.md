@@ -8,3 +8,6 @@ We are implementing a management plan for this idea:
 https://drive.google.com/drive/folders/1DI1yBCxIpz7mGFjVQrL25d4emLJANEY0?usp=sharing
 
 --> in order to fund this idea via StartUp Nation.
+
+
+--> Persona link: https://app.xtensio.com/z68sj4ka
