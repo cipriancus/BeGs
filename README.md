@@ -13,6 +13,8 @@ https://drive.google.com/drive/folders/1DI1yBCxIpz7mGFjVQrL25d4emLJANEY0?usp=sha
 
 --> in order to fund this idea via StartUp Nation.
 
+You can look at our Tasks Board by installing ZENHUB : https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd
+
 <ul>
   <li>Ciprian Cusmuliuc - cusmuliuc.ciprian.gabriel@info.uaic.ro </li>
   <li>Georgiana Coca - coca.lucia.georgiana@info.uaic.ro</li>
