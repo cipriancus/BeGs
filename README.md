@@ -10,4 +10,17 @@ https://drive.google.com/drive/folders/1DI1yBCxIpz7mGFjVQrL25d4emLJANEY0?usp=sha
 --> in order to fund this idea via StartUp Nation.
 
 
---> Persona link: https://app.xtensio.com/z68sj4ka
+--> Negative Persona link: https://app.xtensio.com/z68sj4ka
+
+<ul>
+  <li>Ciprian Cusmuliuc - cusmuliuc.ciprian.gabriel@info.uaic.ro </li>
+  <li>Georgiana Coca - coca.lucia.georgiana@info.uaic.ro</li>
+</ul>
+
+<h3>Professors :</h3>
+
+<ul>
+  <li>Sabin Cornelui Buraga - busaco@info.uaic.ro</li>
+  <li>Alecsandru Grigoriu</li>
+</ul>
+
