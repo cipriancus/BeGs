@@ -166,56 +166,50 @@
 
 		<section typeof="sa:MaterialsAndMethods" id="architecture">
 		    <h1>5 Persona</h1>
-			<p>
-				In this section the application architecture will be presented, as it is a key application feature.
-			</p>
 			<h3>
-				4.1 Microservices architecture
+				5.1 Primary Persona
 			</h3>
 			<figure typeof="sa:Image">
-			  <img src="./scholarly/UML/micro-services.png" >	
+			  <embed width="100%" height="2000px" src="./persona/PersonasPrimary.html">	
 			  <figcaption>
-				Microservices architecture ( figure 1 )
+				Primary persona
 			  </figcaption>
 			</figure>
-			<p>
-				Each microservice will have a specific function, they will all be called via
-				the GatewayAPI, having the following functions:
-			</p>
-			<ul>
-				<li><code>News</code> : will model data related to the cryptocurrency news</li>
-				<li><code>Plot</code> : using the Prediction microservice, that will predict future coin data based on past information, it's
-										purpose is providing plot data for the front end, based on the filters and preferences set by the latter</li>
-				<li><code>Prediction</code> : based on a coin it calls the Python Prediction microservice to predict a future value of a coin </li>
-				<li><code>Python Prediction</code> : calls the python library to give Python Prediction a response </li>
-				<li><code>Python Library</code> : runs the neural network algorithm to predict the value of a coin </li>
-				<li><code>CoinTology</code> : will give information related to coins </li>
-				<li><code>Fuseki Server</code> : stores all the ontology data and supports SPARQL Queries </li>
-				<li><code>Zuul</code> : proxy for the microservices </li>
-				<li><code>Eureka</code> : registry for resilient mid-tier load balancing </li>
-			</ul>
 			<h3>
-				4.2 Class Diagram
+				5.2 Secondary Persona
 			</h3>
-			<p>
-				For each microservice a class diagram has been made, in order to fully detail the system.
-			</p>
 			<figure typeof="sa:Image">
-			  <img src="./scholarly/UML/news class diagram.png" >	
+			  <embed width="100%" height="2000px" src="./persona/SecondaryPersona.html">	
 			  <figcaption>
-				News Class Diagram ( figure 2 )
+				Secondary persona
 			  </figcaption>
 			</figure>
+			<h3>
+				5.3 Secondary Persona
+			</h3>
 			<figure typeof="sa:Image">
-			  <img src="..//scholarly/UML//classPlot.PNG" >	
+			  <embed width="100%" height="2000px" src="./persona/SecondaryPersona2.html">	
 			  <figcaption>
-				Plot Class Diagram ( figure 3 )
+				Secondary persona
 			  </figcaption>
 			</figure>
+			<h3>
+				5.4 Served Persona
+			</h3>
 			<figure typeof="sa:Image">
-			  <img src="..//scholarly/UML//cointology class diagram.png" >	
+			  <embed width="100%" height="2000px" src="./persona/ServedPersona.html">	
 			  <figcaption>
-				Cointology Class Diagram ( figure 4 )
+				Served persona
+			  </figcaption>
+			</figure>
+			<h3>
+				5.5 Negative Persona
+			</h3>
+			<figure typeof="sa:Image">
+			  <a href="https://app.xtensio.com/z68sj4ka">Link to negative persona</a>
+			  <embed width="100%" height="3000px" src="./persona/NegativePersona.html">	
+			  <figcaption>
+				Negative persona
 			  </figcaption>
 			</figure>
 		</section>
