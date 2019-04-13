@@ -18,6 +18,13 @@ body {
 .brand-logo{
 	margin-left: 230px;
 }
+
+.pallete{
+	margin-left: 85px;
+}
+.pallete-subtitle{
+	margin-left: 180px;
+}
 header {
   border-top: 8px solid #2196f3;
   border-bottom: 2px solid #BDD5E9;
