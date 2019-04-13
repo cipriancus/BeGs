@@ -12,6 +12,12 @@ body {
   background: #f7f7f7;
   color: #434343;
 }
+.brand-diagram{
+  margin-left:140px;
+}
+.brand-logo{
+	margin-left: 230px;
+}
 header {
   border-top: 8px solid #2196f3;
   border-bottom: 2px solid #BDD5E9;
