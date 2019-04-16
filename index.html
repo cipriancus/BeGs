@@ -1,354 +1,834 @@
 ﻿<!DOCTYPE html>
 <html lang="en-GB">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>BeGs</title>
     <link rel="stylesheet" href="./scholarly/scholarly.css">
     <link rel="stylesheet" href="./scholarly/node_modules/prismjs/themes/prism-coy.css">
     <script src="./scholarly/node_modules/prismjs/prism.js" defer></script>
-  </head>
-  <body prefix="schema: http://schema.org/ xsd: http://www.w3.org/2001/XMLSchema# sa: https://ns.science.ai/">
-    <header>
-      <p class="title">Begs</p>
-      <p class="subtitle">Best food</p>
-    </header>
-    <article id="what" typeof="schema:ScholarlyArticle" resource="#">
-      <h1>Begs</h1>
-      <section>
+</head>
+<body prefix="schema: http://schema.org/ xsd: http://www.w3.org/2001/XMLSchema# sa: https://ns.science.ai/">
+<header>
+    <p class="title">Begs</p>
+    <p class="subtitle">Best food</p>
+</header>
+<article id="what" typeof="schema:ScholarlyArticle" resource="#">
+    <h1>Begs</h1>
+    <section>
         <ol>
-          <li property="schema:author" typeof="sa:ContributorRole">
-              <a property="schema:author" href="https://www.facebook.com/ciprian.gabriel1/" typeof="schema:Person">
-                  <span property="schema:givenName">Cusmuliuc</span>
-                  <span property="schema:familyName">Ciprian-Gabriel</span>
-              </a>
-              <a property="sa:roleAffiliation" resource="https://github.com/cipriancus/OHO">a</a>
-            <sup property="sa:roleContactPoint" typeof="schema:ContactPoint">
-              <a property="schema:email" href="mailto:cipriancus@gmail.com" title="corresponding author">&#9993;</a>
-            </sup>
-          </li>
+            <li property="schema:author" typeof="sa:ContributorRole">
+                <a property="schema:author" href="https://www.facebook.com/ciprian.gabriel1/" typeof="schema:Person">
+                    <span property="schema:givenName">Cusmuliuc</span>
+                    <span property="schema:familyName">Ciprian-Gabriel</span>
+                </a>
+                <a property="sa:roleAffiliation" resource="https://github.com/cipriancus/OHO">a</a>
+                <sup property="sa:roleContactPoint" typeof="schema:ContactPoint">
+                    <a property="schema:email" href="mailto:cipriancus@gmail.com"
+                       title="corresponding author">&#9993;</a>
+                </sup>
+            </li>
 
-          <li property="schema:author" typeof="sa:ContributorRole">
-              <a property="schema:author" href="https://www.facebook.com/coca.georgiana" typeof="schema:Person">
-                  <span property="schema:givenName">Coca</span>
-                  <span property="schema:familyName">Lucia Georgiana</span>
-              </a>
-              <sup property="sa:roleContactPoint" typeof="schema:ContactPoint">
-              <a property="schema:email" href="mailto:cocageorgiana@gmail.com" title="corresponding author">&#9993;</a>
-            </sup>
-          </li>  
+            <li property="schema:author" typeof="sa:ContributorRole">
+                <a property="schema:author" href="https://www.facebook.com/coca.georgiana" typeof="schema:Person">
+                    <span property="schema:givenName">Coca</span>
+                    <span property="schema:familyName">Lucia Georgiana</span>
+                </a>
+                <sup property="sa:roleContactPoint" typeof="schema:ContactPoint">
+                    <a property="schema:email" href="mailto:cocageorgiana@gmail.com" title="corresponding author">&#9993;</a>
+                </sup>
+            </li>
         </ol>
-      </section>
+    </section>
 
-      <section typeof="sa:Abstract" id="abstract">
+    <section typeof="sa:Abstract" id="abstract">
         <h2>1 Abstract</h2>
         <p>
-          Using QR codes or a similar approach, propose an interactive application to be deployed on a smart device 
-		  (tablet, mobile phone, watch, fridge, TV, vehicle, etc. – at least 3 of them) able to recommend best products –
-		  considering quality, price, various restrictions,... – for a set of desired goodies, including several information of interest: 
-		  characteristics, price, geographic availability, risk factors, etc. The application will also recommend products/services on the 
-		  basis of the user's social graph (his/her "friends" on a social network).
+            Using QR codes or a similar approach, propose an interactive application to be deployed on a smart device
+            (tablet, mobile phone, watch, fridge, TV, vehicle, etc. – at least 3 of them) able to recommend best
+            products –
+            considering quality, price, various restrictions,... – for a set of desired goodies, including several
+            information of interest:
+            characteristics, price, geographic availability, risk factors, etc. The application will also recommend
+            products/services on the
+            basis of the user's social graph (his/her "friends" on a social network).
         </p>
-      </section>
-	  
-      <section typeof="sa:MaterialsAndMethods" id="motivation">
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="motivation">
         <h2>2 Motivation</h2>
         <p>
-          Rate of obesity grew three times since 1975 till today, diabetes are on the rise globally.
+            Rate of obesity grew three times since 1975 till today, diabetes are on the rise globally.
         </p>
-		<p>
-		  Absence of a technological mean from which the population can take care of their eating habits.
-		</p>
-		<p>
-		  Providing diversity in a monopolized market.
-		</p>
-      </section>
-	  
-	  <section typeof="sa:MaterialsAndMethods" id="features">
-            <h1>3 Product</h1>
-			<p>
-				Begs is a platform that gives users suggestions about food and eating habits.
-			</p>
-            <p>
-				The purpose of the application is to recommend to users the most advantageous 
-				products according to the selected criteria, their restrictions (may restrict a
-				manufacturer, ingredients inside the product and if they are necessarily valid 
-				in their geographical area).
-            </p>
-			<p>
-				Each user can make a profile, with different food preferences and restrictions 
-				or preferences (such as preferring whole grain products compared to other 
-				cereals). Among the restrictions may be a certain ingredient in products, 
-				may restrict or prefer a particular producer, may specify which type of 
-				producer he wants (only locally, bio, SME, supermarket).
-			</p>
-			<p>
-				This app tries to recommend users the healthiest products and give them the ability 
-				to give a product rating or add comments to inform other people about different aspects 
-				of the product. Users can also distribute content to social media platforms.
-			</p>
-			<p>
-				Manufacturers have a virtual marketplace where they can sell their products and have a list of promotional campaigns. 
-				Each manufacturer also has a score that users can give for several aspects: how organic the ingredients are used,
-				how good the service is, the local validity, the delivery time. 
-				Manufacturers will also be provided with individual store analysis solutions to optimize their content based on previous results.
-			</p>
-			<p>
-				Users can scan products using QR code, barcode, or search by product name, either to search for them in the app or to add them (if they have not been added already ).
-			</p>
-			<p>
-				Begs aggregates data from multiple online stores to find users at discounted prices.
-			</p>
-			<p>
-				The app can be used with a smart fridge to mark what products are needed with your tablet or phone when they are shopping or with a watch to see the shopping list easier.
-			</p>
-			<p>
-				The application gives bio, local and SME manufacturers the opportunity to list their products for users to be informed about them.
-			</p>
-			<p>
-				The app suggests certain products using the activity of friends using social media.
-			</p>
-        </section> 
-		
-        <section typeof="sa:MaterialsAndMethods" id="features">
-            <h1>4 Features</h1>
-			<p>
-				The app wishes to provide the following features for consumers:
-			</p>
-            <ul>
-				<li>Aggregates data from multiple online stores to find users at discounted prices.</li>
-				<li>A single search looks for the inventory of all Begs affiliated stores.</li>
-				<li>They can filter by very specific criteria (e.g., the ingredients do not contain peanuts because they are allergic)</li>
-			</ul>
-			<p>
-				The app wishes to provide the following features for sellers:
-			</p>
-            <ul>
-				<li>I can record on the Begs platform, which helps people discover my business</li>
-				<li>They can reach a larger audience in other geographic areas</li>
-				<li>I can sell online without having to build an online store (just by registering the products in Begs)</li>
-				<li>I get analyzes based on the performance of my page (conversion rate,% clicks on my campaigns, etc.)</li>
-			</ul>
-			<p>
-				Features that will be added in the future as growth potential:
-			</p>
-            <ul>
-				<li>I buy from multiple stores in one place and the company delivers them.</li>
-				<li>Using application usage data, we can enter various markets to provide a service:
-				home delivery, products, and more.
-				We will know where to send the merchandise and what type, what buyers in zone X prefer
-				and we can help small producers make certain decisions, analytics.</li>
-				<li>Crawler social networks to identify food trends.</li>
-				<li>Connect to various fitness apps that retrieve data from Google Fit 
-				and suggest the user whether he needs hydration, carbohydrates, 
-				or recommends a diet specific to the training types followed.</li>
-				<li>A close relationship with nutritionists, who may in turn be enrolled in the application and provide eating plans</li>
-				<li>Un sistem de recompense virtuale pentru utilizatori ce faciliteaza 
-				fidelizarea lor (e.g. Badge pentru o alimentatie diversificata ~ 100 produse din categorii diferite)</li>
-				<li>The "Boost IMM" program → every week we expose one manufacturer at the beginning and why we chose it, 
-				which good products it has to increase awareness among all customers as a free ad.</li>
-				<li>"Bestseller" program → every month we choose the best seller based on the quality of the products checked using user reviews.</li>
-			</ul>
-        </section>
-		
-		<section typeof="sa:MaterialsAndMethods" id="architecture">
-		    <h1>5 Sustainability model</h1>
-			<p>
-				Affiliate Programs and we get the Commission
-			</p>
-			<p>
-				Paid ads (sponsored results, like on Google), but also standard app ads. 
-			</p>
-			<p>
-				Data to take course of our future ideas. 
-			</p>
-		</section>
-		<section typeof="sa:MaterialsAndMethods" id="activity">
-		    <h1>6 Brand</h1>
-						<h3>
-				6.1 Brand
-			</h3>
-				<p>Begs aims to follow the following principles in order to build a sustainable brand</p>
-			<ul>
-				<li><strong>Color</strong> the choice of a good color palette is very important in branding. Color isn’t just aesthetics, it stimulates various emotions and carries with it subconscious associations to various things and characteristics.</li>
-				<li><strong>Character</strong> many people in commercialized societies use products and brands to define themselves, so shape brand’s character towards something which audience will like to associate themselves with.</li>
-				<li><strong>Emotion</strong> uses vibrant colors and beautiful imagery to create a rich and exciting brand</li>
-				<li><strong>Consistency</strong> throughout design is based on the choices we made earlier in selecting the right personality for the brand and evoking the appropriate emotions. Keep consistent colors, visuals and printing in full to ensure that the site projects a uniform image.</li>
-				<li><strong>Uniqueness</strong> through the proposed design, we will offer unique product creation, which will be remembered among users and will be easier to remember in their minds</li>
-			</ul>
-			<figure typeof="sa:Image">
-			 
-			</figure>
-		
-			<h3>
-				6.2 Identity
-			</h3>
-			<figure typeof="sa:Image">
-			 
-			</figure>
-			<p>In order to build and define the identity of our application we have set a representative color that will remain in the minds of the users. Starting from the green color, we chose the Complementary pattern and we began to define the representative colors of the application.</p>
-			<p>To achieve this goal we used the colorizer.org application that suggests the color palette of each design pattern</p>
-			<p>We chose the colors usingthe compelementary method, thus, the collors as as follows</p>
-			<ul>
-				<li>Background: (242,254,217) and complementary being: (229,217,254)</li>
-				<li>Buttons: (177,227,77) and complementary being: (127,77,227)</li>
-				<li>Border: (140,59,59) and complementary being: (59,140,140)</li>
-				<li>Text: (0,0,0) and complementary being: (0,0,0)</li>
-			</ul>
-			<figure typeof="sa:Image">
-			<embed src="scholarly/Photos/background-colors.png" class="pallete" width="400px" height="300px">
-			<figcaption>
-				<p class="pallete-subtitle">Background Color( figure 6 )</p>
-			  </figcaption>
-			</figure>
-		    <figure typeof="sa:Image">	
-			<embed src="scholarly/Photos/button-colors.png" class="pallete" width="400px" height="300px">
-			  <figcaption>
-				<p class="pallete-subtitle">Button Color( figure 6 )</p>
-			  </figcaption>
-			</figure>
-				<figure typeof="sa:Image">	
-			<embed src="scholarly/Photos/border-color.png" class="pallete" width="400px" height="300px">
-			  <figcaption>
-				<p class="pallete-subtitle">Border Color( figure 6 )</p>
-			  </figcaption>
-			</figure>
-			<figure typeof="sa:Image">
-			  <embed src="scholarly/Photos/text-color.png" class="pallete" width="400px" height="300px">
-			  <figcaption>
-				<p class="pallete-subtitle">Text Color( figure 6 )</p>
-			  </figcaption>
-			</figure>			
-				
-			<h3>
-				6.3 Logo
-			</h3>
-			<figure typeof="sa:Image">
-			 
-			</figure>
-			<embed src="logo/logo.png" class="brand-logo" width="200px" height="200px">	
-			<p>
-				The representative logo for our application is built from a suggestive icon that signifies the shopping cart, followed by the name of the application <italic>Begs</italic> and the application slogan Best Food.
-			</p>
-			<p>In order to find the most suitable representative logo, we have gone through 5 main steps. </p>
-			<figure typeof="sa:Image">
-			<embed src="scholarly/Photos/brand-diagram.PNG"  class="brand-diagram" width="400px" height="200px">
-			<figcaption>
-				<p>Brand diagram</p>
-			  </figcaption>
-			</figure>
-			<ul>
-				<li>The first step was to find a simple and suggestive design for the application.</li>
-				<li> To be memorable, we chose a main image, a shopping cart that is easy to remember in mind by customers. 
-				We chose a green color palette because it suggests health, energy and care for nature</li>
-				<li>In order to respect the principle of timeless we chose a common icon, the shopping cart, which is marked by a smile</li>
-				<li> From the point of view of versatility, this logo will be assigned to the phone, refrigerator and smartwatch</li>
-				<li>The aforementioned principles ensure that the chosen log has an appropriate design.</li>
-			</ul>
-				
-			 
-		</section>
+        <p>
+            Absence of a technological mean from which the population can take care of their eating habits.
+        </p>
+        <p>
+            Providing diversity in a monopolized market.
+        </p>
+    </section>
 
-		<section typeof="sa:MaterialsAndMethods" id="architecture">
-		    <h1>7 Persona</h1>
-			<h3>
-				7.1 Primary Persona
-			</h3>
-			<figure typeof="sa:Image">
-			  <embed width="100%" height="2000px" src="./persona/PersonasPrimary.html">	
-			  <figcaption>
-				Primary persona
-			  </figcaption>
-			</figure>
-			<h3>
-				7.2 Secondary Persona
-			</h3>
-			<figure typeof="sa:Image">
-			  <embed width="100%" height="2000px" src="./persona/SecondaryPersona.html">	
-			  <figcaption>
-				Secondary persona
-			  </figcaption>
-			</figure>
-			<h3>
-				7.3 Secondary Persona
-			</h3>
-			<figure typeof="sa:Image">
-			  <embed width="100%" height="2000px" src="./persona/SecondaryPersona2.html">	
-			  <figcaption>
-				Secondary persona
-			  </figcaption>
-			</figure>
-			<h3>
-				7.4 Served Persona
-			</h3>
-			<figure typeof="sa:Image">
-			  <embed width="100%" height="2000px" src="./persona/ServedPersona.html">	
-			  <figcaption>
-				Served persona
-			  </figcaption>
-			</figure>
-			<h3>
-				7.5 Negative Persona
-			</h3>
-			<figure typeof="sa:Image">
-			  <a href="https://app.xtensio.com/z68sj4ka">Link to negative persona</a>
-			  <embed width="100%" height="3000px" src="./persona/NegativePersona.html">	
-			  <figcaption>
-				Negative persona
-			  </figcaption>
-			</figure>
-		</section>
-		
-		<section typeof="sa:MaterialsAndMethods" id="use_case">
-		    <h1>8 QOC</h1>
-			<p>
-				Describing the use-case, a diagram is best suited, thus possible interactions
-				with the system are described as seen below.
-			</p>
-			<figure typeof="sa:Image">
-			<embed src="scholarly/Photos/QOC1.PNG" width="700px" height="250px">
-			<figcaption>
-				<p>QOC ( version 1 )</p>
-			  </figcaption>
-			</figure>
-			<figure typeof="sa:Image">
-			<embed src="scholarly/Photos/QOC2.PNG" width="700px" height="250px">
-			<figcaption>
-				<p>QOC ( version 2 )</p>
-			  </figcaption>
-			</figure>
-			<figure typeof="sa:Image">
-			<embed src="scholarly/Photos/QOC3.PNG" width="700px" height="250px">
-			<figcaption>
-				<p>QOC ( version 3 )</p>
-			  </figcaption>
-			</figure>
-		</section>
-		
-		<section typeof="sa:MaterialsAndMethods" id="conclusion">
-		<h1>9 Conclusion
-		</h1>
-		<p>
-			To conclude, BeGs is a new idea, aimed to change shopping behavior
-			and improve peoples lives.
-		</p>
-		</section>
+    <section typeof="sa:MaterialsAndMethods" id="product">
+        <h1>3 Product</h1>
+        <p>
+            Begs is a platform that gives users suggestions about food and eating habits.
+        </p>
+        <p>
+            The purpose of the application is to recommend to users the most advantageous
+            products according to the selected criteria, their restrictions (may restrict a
+            manufacturer, ingredients inside the product and if they are necessarily valid
+            in their geographical area).
+        </p>
+        <p>
+            Each user can make a profile, with different food preferences and restrictions
+            or preferences (such as preferring whole grain products compared to other
+            cereals). Among the restrictions may be a certain ingredient in products,
+            may restrict or prefer a particular producer, may specify which type of
+            producer he wants (only locally, bio, SME, supermarket).
+        </p>
+        <p>
+            This app tries to recommend users the healthiest products and give them the ability
+            to give a product rating or add comments to inform other people about different aspects
+            of the product. Users can also distribute content to social media platforms.
+        </p>
+        <p>
+            Manufacturers have a virtual marketplace where they can sell their products and have a list of promotional
+            campaigns.
+            Each manufacturer also has a score that users can give for several aspects: how organic the ingredients are
+            used,
+            how good the service is, the local validity, the delivery time.
+            Manufacturers will also be provided with individual store analysis solutions to optimize their content based
+            on previous results.
+        </p>
+        <p>
+            Users can scan products using QR code, barcode, or search by product name, either to search for them in the
+            app or to add them (if they have not been added already ).
+        </p>
+        <p>
+            Begs aggregates data from multiple online stores to find users at discounted prices.
+        </p>
+        <p>
+            The app can be used with a smart fridge to mark what products are needed with your tablet or phone when they
+            are shopping or with a watch to see the shopping list easier.
+        </p>
+        <p>
+            The application gives bio, local and SME manufacturers the opportunity to list their products for users to
+            be informed about them.
+        </p>
+        <p>
+            The app suggests certain products using the activity of friends using social media.
+        </p>
+    </section>
 
-		<section typeof="sa:MaterialsAndMethods" id="conclusion">
-		<h1>10 Bibliography
-		</h1>
-		<p>	1.<a property="schema:citation" href="https://justcreative.com/2010/04/06/branding-identity-logo-design-explained/">Branding, Identity & Logo Design Explained</a></p>
-		<p>	2.<a property="schema:citation" href="https://www.wix.com/logo/maker/">Design Your Own Logo with Wix Logo Maker</a></p>
-		<p>	3.<a property="schema:citation" href="https://profs.info.uaic.ro/~busaco/teach/courses/hci/presentations/hci02-HumanFactor-Users.pdf">Persona</a></p>
-		<p>	4.<a property="schema:citation" href="https://xtensio.com/">Persona Design</a></p>
-		<p>	5.<a property="schema:citation" href="https://balsamiq.cloud/">Wireframe</a></p>
-		<p>	6.<a property="schema:citation" href="https://uxplanet.org/how-can-we-design-an-intelligent-recommendation-engine-b9bb1db4d050?fbclid=IwAR1Fxyd24l7QhU0ojvUu8k-ayYIHfPADa2hq3wG-f2D6lgEnI_KZCWHZd5k">How Can We ‘Design’ An Intelligent Recommendation Engine?</a></p>
-		<p>	7.<a property="schema:citation" href="https://mobbin.design/?fbclid=IwAR3x3Y51g-Fdb0hrJ9rRz1iefW86N0GQ-X3Q17D8oB_68hCG5n1usWyVYdM">Discover the latest iOS UI design patterns</a></p>
-		<p>	8.<a property="schema:citation" href="https://profs.info.uaic.ro/~busaco/teach/courses/hci/presentations/hci02-HumanFactor-Users.pdf">Persona</a></p>
-		<p>	9.<a property="schema:citation" href="https://aisquared.wordpress.com/?fbclid=IwAR07nb9G1Q_5qvg9ePFwsiB2gMQj4ZLD1cGeh1F-_woGz4V_px4RdaSUO7c">Design Methodology</a></p>
-		<p> 10.<a property="schema:citation" href="http://draw-by-sound.weebly.com/?fbclid=IwAR01I4BltzRXRBrnN1cooYEs0Mrg_4vHeDBfzX7o_tRnClh4AIpSApvdlXk">Naming the Apps, Storyboards, Personas</a></p>
-		</p>
-		</section>
-    </article>
-  </body>
+    <section typeof="sa:MaterialsAndMethods" id="features">
+        <h1>4 Features</h1>
+        <p>
+            The app wishes to provide the following features for consumers:
+        </p>
+        <ul>
+            <li>Aggregates data from multiple online stores to find users at discounted prices.</li>
+            <li>A single search looks for the inventory of all Begs affiliated stores.</li>
+            <li>They can filter by very specific criteria (e.g., the ingredients do not contain peanuts because they are
+                allergic)
+            </li>
+        </ul>
+        <p>
+            The app wishes to provide the following features for sellers:
+        </p>
+        <ul>
+            <li>I can record on the Begs platform, which helps people discover my business</li>
+            <li>They can reach a larger audience in other geographic areas</li>
+            <li>I can sell online without having to build an online store (just by registering the products in Begs)
+            </li>
+            <li>I get analyzes based on the performance of my page (conversion rate,% clicks on my campaigns, etc.)</li>
+        </ul>
+        <p>
+            Features that will be added in the future as growth potential:
+        </p>
+        <ul>
+            <li>I buy from multiple stores in one place and the company delivers them.</li>
+            <li>Using application usage data, we can enter various markets to provide a service:
+                home delivery, products, and more.
+                We will know where to send the merchandise and what type, what buyers in zone X prefer
+                and we can help small producers make certain decisions, analytics.
+            </li>
+            <li>Crawler social networks to identify food trends.</li>
+            <li>Connect to various fitness apps that retrieve data from Google Fit
+                and suggest the user whether he needs hydration, carbohydrates,
+                or recommends a diet specific to the training types followed.
+            </li>
+            <li>A close relationship with nutritionists, who may in turn be enrolled in the application and provide
+                eating plans
+            </li>
+            <li>A virtual reward system for rewarding users for
+                their loyalty (for example, Food Diversity Badge ~ 100 products of different categories)
+            </li>
+            <li>The "Boost IMM" program → every week we expose one manufacturer at the beginning and why we chose it,
+                which good products it has to increase awareness among all customers as a free ad.
+            </li>
+            <li>"Bestseller" program → every month we choose the best seller based on the quality of the products
+                checked using user reviews.
+            </li>
+        </ul>
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="model">
+        <h1>5 Sustainability model</h1>
+        <p>
+            Affiliate Programs and we get the Commission
+        </p>
+        <p>
+            Paid ads (sponsored results, like on Google), but also standard app ads.
+        </p>
+        <p>
+            Data to take course of our future ideas.
+        </p>
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="activity">
+        <h1>6 Brand</h1>
+        <h3>
+            6.1 Brand
+        </h3>
+        <p>Begs aims to follow the following principles in order to build a sustainable brand</p>
+        <ul>
+            <li><strong>Color</strong> the choice of a good color palette is very important in branding. Color isn’t
+                just aesthetics, it stimulates various emotions and carries with it subconscious associations to various
+                things and characteristics.
+            </li>
+            <li><strong>Character</strong> many people in commercialized societies use products and brands to define
+                themselves, so shape brand’s character towards something which audience will like to associate
+                themselves with.
+            </li>
+            <li><strong>Emotion</strong> uses vibrant colors and beautiful imagery to create a rich and exciting brand
+            </li>
+            <li><strong>Consistency</strong> throughout design is based on the choices we made earlier in selecting the
+                right personality for the brand and evoking the appropriate emotions. Keep consistent colors, visuals
+                and printing in full to ensure that the site projects a uniform image.
+            </li>
+            <li><strong>Uniqueness</strong> through the proposed design, we will offer unique product creation, which
+                will be remembered among users and will be easier to remember in their minds
+            </li>
+        </ul>
+        <figure typeof="sa:Image">
+
+        </figure>
+
+        <h3>
+            6.2 Identity
+        </h3>
+        <p>In order to build and define the identity of our application we have set a representative color that will
+            remain in the minds of the users. Starting from the green color, we chose the Complementary pattern and we
+            began to define the representative colors of the application.</p>
+        <p>To achieve this goal we used the colorizer.org application that suggests the color palette of each design
+            pattern</p>
+        <p>We chose the colors using the complementary method, thus, the colors as as follows</p>
+        <ul>
+            <li>Background: (242,254,217) and complementary being: (229,217,254)</li>
+            <li>Buttons: (177,227,77) and complementary being: (127,77,227)</li>
+            <li>Border: (140,59,59) and complementary being: (59,140,140)</li>
+            <li>Text: (0,0,0) and complementary being: (0,0,0)</li>
+        </ul>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/background-colors.png" class="pallete" width="400px" height="300px">
+            <figcaption>
+                <p class="pallete-subtitle">Background Color( figure 1 )</p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/button-colors.png" class="pallete" width="400px" height="300px">
+            <figcaption>
+                <p class="pallete-subtitle">Button Color( figure 2 )</p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/border-color.png" class="pallete" width="400px" height="300px">
+            <figcaption>
+                <p class="pallete-subtitle">Border Color( figure 3 )</p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/text-color.png" class="pallete" width="400px" height="300px">
+            <figcaption>
+                <p class="pallete-subtitle">Text Color( figure 4 )</p>
+            </figcaption>
+        </figure>
+
+        <h3>
+            6.3 Logo
+        </h3>
+        <figure typeof="sa:Image">
+            <embed src="logo/logo.png" width="200px" height="200px">
+            <figcaption>
+                <p class="pallete-subtitle">Logo ( figure 5 )</p>
+            </figcaption>
+        </figure>
+        <p>
+            The representative logo for our application is built from a suggestive icon that signifies the shopping
+            cart, followed by the name of the application
+            <italic>Begs</italic>
+            and the application slogan Best Food.
+        </p>
+        <p>In order to find the most suitable representative logo, we have gone through 5 main steps. </p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/brand-diagram.PNG" class="brand-diagram" width="400px" height="200px">
+            <figcaption>
+                <p>Brand diagram</p>
+            </figcaption>
+        </figure>
+        <ul>
+            <li>The first step was to find a simple and suggestive design for the application.</li>
+            <li> To be memorable, we chose a main image, a shopping cart that is easy to remember in mind by customers.
+                We chose a green color palette because it suggests health, energy and care for nature
+            </li>
+            <li>In order to respect the principle of timeless we chose a common icon, the shopping cart, which is marked
+                by a smile
+            </li>
+            <li> From the point of view of versatility, this logo will be assigned to the phone, refrigerator and
+                smartwatch
+            </li>
+            <li>The aforementioned principles ensure that the chosen log has an appropriate design.</li>
+        </ul>
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="persona">
+        <h1>7 Persona</h1>
+        <h3>
+            7.1 Primary Persona
+        </h3>
+        <figure typeof="sa:Image">
+            <embed width="100%" height="2000px" src="./persona/PersonasPrimary.html">
+            <figcaption>
+                Primary persona
+            </figcaption>
+        </figure>
+        <h3>
+            7.2 Secondary Persona
+        </h3>
+        <figure typeof="sa:Image">
+            <embed width="100%" height="2000px" src="./persona/SecondaryPersona.html">
+            <figcaption>
+                Secondary persona
+            </figcaption>
+        </figure>
+        <h3>
+            7.3 Secondary Persona
+        </h3>
+        <figure typeof="sa:Image">
+            <embed width="100%" height="2000px" src="./persona/SecondaryPersona2.html">
+            <figcaption>
+                Secondary persona
+            </figcaption>
+        </figure>
+        <h3>
+            7.4 Served Persona
+        </h3>
+        <figure typeof="sa:Image">
+            <embed width="100%" height="2000px" src="./persona/ServedPersona.html">
+            <figcaption>
+                Served persona
+            </figcaption>
+        </figure>
+        <h3>
+            7.5 Negative Persona
+        </h3>
+        <figure typeof="sa:Image">
+            <a href="https://app.xtensio.com/z68sj4ka">Link to negative persona</a>
+            <embed width="100%" height="3000px" src="./persona/NegativePersona.html">
+            <figcaption>
+                Negative persona
+            </figcaption>
+        </figure>
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="sketches">
+        <h1>8 Sketches</h1>
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="wireframes">
+        <h1>9 Wireframes</h1>
+        <p>
+            First of all, the link to our wireframes can be found here, in balsamiq cloud:
+            <a href="https://balsamiq.cloud/snq7zq8/ptg44o3">wireframes</a>.
+        </p>
+        <p>
+            The ideas we tried to implement go beyond the three ideas requirements.
+            They are as follows:
+        </p>
+        <ul>
+            <li>First page and how the user logs in or registers</li>
+            <li>How the user selects his interest in the first page (avoid cold start)</li>
+            <li>Main page - where the users gets it's recommendations</li>
+            <li>Shopping list that can be shared between the fridge, the smartwatch and phone</li>
+            <li>The shopping cart and how the user places an order</li>
+            <li>Product page</li>
+            <li>Producer page</li>
+            <li>Friends activity</li>
+            <li>Search</li>
+        </ul>
+        <h3>9.1 First page and how the user logs in or registers</h3>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/1/1.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>The design pattern used, splash screens/lunch screen, the user is greeted with the app logo and a friendly
+            page to get a friendly welcome</p>
+        <p>The next screen isthe tutorial screen</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/1/2.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>The user will be presented a tutorial of the app, so we will use the design pattern
+            tutorial/walkthroughs to help the user learn the app faster.</p>
+        <p>After which the user will be greeted by the login page</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/1/3.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>We used lazy sign-ups to encourage the users to get in he app faster</p>
+        <h3>9.2 How the user selects his interest in the first page (avoid cold start)</h3>
+        <p>After the user registers, we have to create a profile for him in order to create recommendations.</p>
+        <p>To avoid the cold start problem we go through a series of screens to ask him about his preferences in food,
+            diets, allergies, quality and so on, on balsamiq is all the flow, we only put one image.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/2/1.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>We used the design pattern: Setup.</p>
+        <h3>9.3 Main page - where the users gets it's recommendations</h3>
+        <p>The first page is where the user can see the recommendations</p>
+        <p>On the bottom of the page there is a sticky nav in order for the user
+            to have the application main pages at hand.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/3/1.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>We used a list in order for the information to be more compact and be efficient.</p>
+        <p>The user can see the product photo, title, user rating and price an also diverse recommendation tags.</p>
+        <h3>9.4 Shopping list that can be shared between the fridge, the smartwatch and phone</h3>
+        <p>If the user wants to create a shopping list he has the possibility straight from
+            his smart fridge so he won't forget what is he buying.
+            He can search for a product via text or voice and also add recommendations by drag and drop.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/4/1.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>By pressing a product he is able to see some details, though less than in the phone.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/4/2.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>On his phone, he can click on his "Shopping List" via the sticky nav with the list icon
+            to see the shopping list made on his phone and fridge.</p>
+        <p>To delete he can swipe the product left or right and also he can inspect
+            the product just like any other page by pressing and he will also get
+            tags for each product, as a warning.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/4/3.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>While shopping, he can use the smartwatch to view his list that was made on the
+            fridge and phone.</p>
+        <p>As gestures he can swipe up to confirm the buy, left or right to move items in the list
+            and also swipe down to say he doesn't want it any more.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/4/4.png" width="382px" height="417px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <h3>9.5 The shopping cart and how the user places an order</h3>
+        <p>If the user clicks on the shopping cart in the sticky nav
+            but he doesn't have anything in it we used an empty state
+            screen in order for him not to have a blank page, also
+            we are showing him some recommendations in order to ease his decision making.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/5/1.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>After choosing a product the user can view the price, drop items and increase the quantity.
+            In the end he also sees the total.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/5/2.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>Continuing he is able to change his address via a modal and also select
+            the delivery time using a default os picker.
+            He can see the order summary and change the payment methods.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/5/3.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/5/4.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/5/5.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>In the end he gets a confirmation of the order, showing him
+            how much he paid and what he bought.
+            Also very important is for him to receive new product recommendations
+            via "Products you my also like".</p>
+        <h3>9.6 Product page</h3>
+        <p>After the user clicks on a product, the product page will show up.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/6/1.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/6/2.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/6/3.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/6/4.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>The user can see the product name and photo, in order for him to recognise it easier.</p>
+        <p>A page rating is also available, in order for him to know what he is buying.
+            He can also click on the producer name to go to his page.</p>
+        <p>He can see the price, the description and also tags related to his restrictions
+            where he could get suggestions like: "High calories" - if he has a certain low calories died,
+            price suggestions and so on.</p>
+        <p>The add to cart button is conveniently placed hear his fingers ho he can reach them easier.</p>
+        <p>The user also receiver other recommendations in the "Often bought with" so he can visit other product
+            pages.</p>
+        <h3>9.7 Producer page</h3>
+        <p>After the user clicks on the producer title in the product page, this page show up.</p>
+        <p>If the user scrolls down he can give a rating to the product and see "Nutritional Facts"
+            and also "Contents" in order to have the most information about what is he buying.</p>
+        <p>He can also leave reviews, we used the "Comments" design pattern in order to
+            inform other users about positive or negative things about the item.</p>
+        <p>Trying to add a review will pop up a modal and prompt him to enter some info.</p>
+        <p>Finally the user receiver other recommendations in order to continue the navigation.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/7/1.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/7/2.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>The user can see the producer name and logo, in order for him to recognise it easier.</p>
+        <p>A page rating is also available, in order for him to know what he should expect. He can also give a score
+            based on some impartial criteria and also leave reviews via comments.</p>
+        <p>If the user scrolls down he can view diverse recommended products of that produces that fit his profile.</p>
+        <h3>9.8 Friends activity</h3>
+        <p>If the user clicks on the social logo in the sticky nav it will redirect him to the friends page.</p>
+        <p>Her he can see what his friends have bought and get a feeling of the current trends.
+            He is also warned if some products do not match his profile or might be bad choices or
+            if the friend recently left a review.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/8/1.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <h3>9.9 Search</h3>
+        <p>The user can also search, by typing or by voice.</p>
+        <p>The search bar is always available up top.</p>
+        <p>The user will be warned if certain products do not
+            comply with his restrictions or "price" points.</p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/9/1.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <p>To search by QR the user can use the sticky nav with the camera icon
+            to scan a product, after which the product page will appear. </p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/wireframe/9/2.png" width="444px" height="867px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="use_case">
+        <h1>10 QOC</h1>
+        <p>
+            Describing the use-case, a diagram is best suited, thus possible interactions
+            with the system are described as seen below.
+        </p>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/QOC1.PNG" width="700px" height="250px">
+            <figcaption>
+                <p> QOC ( figure 6 )</p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/QOC2.PNG" width="700px" height="250px">
+            <figcaption>
+                <p>10.2 QOC ( figure 7 )</p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/QOC3.PNG" width="700px" height="250px">
+            <figcaption>
+                <p>10.3 QOC ( figure 8 )</p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="storyboard">
+        <h1>12 Storyboard</h1>
+        <h3>12.1 User shopping list on fridge, watch and phone</h3>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/1.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/2.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/3.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/4.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/5.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/6.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/7.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/8.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/9.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/10.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_out_shopping/11.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <h3>12.2 User friend recommendation</h3>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_friend_recommendation/1.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_friend_recommendation/2.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_friend_recommendation/3.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_friend_recommendation/4.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <h3>12.3 User cart</h3>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_cart/1.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_cart/2.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_cart/3.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_cart/4.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_cart/5.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_cart/6.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <h3>12.4 User filters</h3>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_add_filters/1.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_add_filters/2.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_add_filters/3.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_add_filters/4.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_add_filters/5.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_add_filters/6.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+        <figure typeof="sa:Image">
+            <embed src="scholarly/Photos/storyboard/user_add_filters/7.png" width="720px" height="966px">
+            <figcaption>
+                <p></p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="conclusion">
+        <h1>13 Conclusion
+        </h1>
+        <p>
+            To conclude, BeGs is a new idea, aimed to change shopping behavior
+            and improve peoples lives.
+        </p>
+    </section>
+
+    <section typeof="sa:MaterialsAndMethods" id="bibliography">
+        <h1>14 Bibliography
+        </h1>
+        <p> 1.<a property="schema:citation"
+                 href="https://justcreative.com/2010/04/06/branding-identity-logo-design-explained/">Branding, Identity
+            & Logo Design Explained</a></p>
+        <p> 2.<a property="schema:citation" href="https://www.wix.com/logo/maker/">Design Your Own Logo with Wix Logo
+            Maker</a></p>
+        <p> 3.<a property="schema:citation"
+                 href="https://profs.info.uaic.ro/~busaco/teach/courses/hci/presentations/hci02-HumanFactor-Users.pdf">Persona</a>
+        </p>
+        <p> 4.<a property="schema:citation" href="https://xtensio.com/">Persona Design</a></p>
+        <p> 5.<a property="schema:citation" href="https://balsamiq.cloud/">Wireframe</a></p>
+        <p> 6.<a property="schema:citation"
+                 href="https://uxplanet.org/how-can-we-design-an-intelligent-recommendation-engine-b9bb1db4d050?fbclid=IwAR1Fxyd24l7QhU0ojvUu8k-ayYIHfPADa2hq3wG-f2D6lgEnI_KZCWHZd5k">How
+            Can We ‘Design’ An Intelligent Recommendation Engine?</a></p>
+        <p> 7.<a property="schema:citation"
+                 href="https://mobbin.design/?fbclid=IwAR3x3Y51g-Fdb0hrJ9rRz1iefW86N0GQ-X3Q17D8oB_68hCG5n1usWyVYdM">Discover
+            the latest iOS UI design patterns</a></p>
+        <p> 8.<a property="schema:citation"
+                 href="https://profs.info.uaic.ro/~busaco/teach/courses/hci/presentations/hci02-HumanFactor-Users.pdf">Persona</a>
+        </p>
+        <p> 9.<a property="schema:citation"
+                 href="https://aisquared.wordpress.com/?fbclid=IwAR07nb9G1Q_5qvg9ePFwsiB2gMQj4ZLD1cGeh1F-_woGz4V_px4RdaSUO7c">Design
+            Methodology</a></p>
+        <p> 10.<a property="schema:citation"
+                  href="http://draw-by-sound.weebly.com/?fbclid=IwAR01I4BltzRXRBrnN1cooYEs0Mrg_4vHeDBfzX7o_tRnClh4AIpSApvdlXk">Naming
+            the Apps, Storyboards, Personas</a></p>
+        </p>
+    </section>
+</article>
+</body>
 </html>
