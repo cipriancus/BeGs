@@ -7,7 +7,7 @@ Scholarly HTML: https://cipriancus.github.io/BeGs/
 
 Link for the wireframe on *Balsamiq*:https://balsamiq.cloud/snq7zq8/ptg44o3
 
-**We are implementing a management plan for this idea: https://drive.google.com/drive/folders/1DI1yBCxIpz7mGFjVQrL25d4emLJANEY0?usp=sharing 
+**We are implementing a management plan for this idea: https://drive.google.com/drive/folders/1DI1yBCxIpz7mGFjVQrL25d4emLJANEY0?usp=sharing** 
 
 --> in order to fund this idea via StartUp Nation.
 
