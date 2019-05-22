@@ -1,0 +1,89 @@
+<div class="back-img " *ngIf="firstPage===true">
+
+  <div class="align screen">
+
+    <div class="example-container align-left">
+
+      <div class="speech">
+        <img src="../assets/logo9.png" class="logo">
+        <input type="text" name="q" id="transcript" placeholder="Search" />
+        <img src="//i.imgur.com/cHidSVu.gif" class="search-dsgn" />
+      </div>
+
+      <div cdkDropList #studentsList="cdkDropList" [cdkDropListData]="products"
+        [cdkDropListConnectedTo]="[students2List]" class="example-list" (cdkDropListDropped)="drop($event)">
+        <div class="example-box" *ngFor="let product of products" cdkDrag>
+          <img src='{{ "../assets/" + product.image + ".png" }}' class="dimension">
+          <div class="title-product">
+            {{product.name}}
+          </div>
+          <img src="../assets/bin.png" class="bin">
+        </div>
+      </div>
+    </div>
+    <div class="example-container align-right">
+
+      <img src="../assets/people.png" class="people">
+      <div cdkDropList #students2List="cdkDropList" [cdkDropListData]="products2"
+        [cdkDropListConnectedTo]="[studentsList]" class="example-list" (cdkDropListDropped)="drop($event)">
+        <div class="example-box" *ngFor="let product2 of products2" cdkDrag>
+          <img src='{{ "../assets/" + product2.image + ".png" }}' class="dimension">
+          <div class="description-product" (click)="changePage(true)">
+            <div class="title-product"> <span class="stars-container stars-80">★</span> {{product2.name}}</div>
+            <div class="subtitle"> {{product2.description}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="back-img" *ngIf="secondPage===true">
+
+  <div>
+    <div class="solid speech">
+      <img src="../assets/logo9.png" class="logo">
+      <input type="text" name="q" id="transcript" placeholder="Search" />
+      <img src="//i.imgur.com/cHidSVu.gif" class="search-dsgn" />
+      <img src="../assets/people.png" class="people2">
+    </div>
+
+  </div>
+  <div class="example-container align2-left ">
+
+
+
+    <div cdkDropList #studentsList="cdkDropList" [cdkDropListData]="products" [cdkDropListConnectedTo]="[students2List]"
+      class="example-list" (cdkDropListDropped)="drop($event)">
+      <div class="example-box" *ngFor="let product of products" cdkDrag>
+
+        <img src='{{ "../assets/" + product.image + ".png" }}' class="dimension">
+        <div class="title-product">
+          {{product.name}}
+        </div>
+        <img src="../assets/bin.png" class="bin">
+      </div>
+    </div>
+    <div class="right-part">
+      <img src="../assets/apple.png" class="apple">
+      <div class="details">
+        <div>
+          <h3>Apple</h3>
+          <h2>Carrefour</h2>
+        </div>
+        <div class="review">
+          <span class="stars-container stars-60">★</span>
+          <h4>User Review</h4>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<router-outlet>
+
+</router-outlet>
