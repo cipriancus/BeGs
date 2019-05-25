@@ -59,7 +59,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Garlic"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -71,7 +71,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Meat"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -83,7 +83,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Fish"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -95,7 +95,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Milk"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -107,7 +107,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="eggs"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -119,7 +119,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Soya"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -131,7 +131,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Soy"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -143,7 +143,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Shellfish"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -155,7 +155,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Hot peppers"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -167,7 +167,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Hot peppers"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -179,7 +179,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Wheat"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -191,7 +191,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Tree Nuts"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -203,7 +203,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Peanuts"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <Button

@@ -90,7 +90,7 @@ public class SplashActivity extends FragmentActivity {
             public void onAnimationEnd(Animation arg0) {
 
                 Intent intent = new Intent(getApplicationContext(),
-                        DietInterestActivity.class);//LoginActivity
+                        ECartHomeActivity.class);//LoginActivity
                 startActivity(intent);
                 finish();
             }

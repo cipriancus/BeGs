@@ -61,7 +61,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Low Callories"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -73,7 +73,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Low Sugar"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -85,7 +85,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Dairy Free"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -97,7 +97,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Vegan"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -109,7 +109,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Veggie"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -121,7 +121,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="High Protein"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -133,7 +133,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Good Fats"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <TextView
@@ -145,7 +145,7 @@
             android:background="@drawable/rounded_textview"
             android:gravity="center"
             android:text="Gluten Free"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="14sp" />
 
         <Button
