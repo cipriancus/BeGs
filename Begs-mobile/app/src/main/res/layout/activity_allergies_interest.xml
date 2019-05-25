@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.activities.AllergiesInterestActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/htab_toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:text="Back"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Clear" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Any Allergies?"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mark12"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="8dp"
+            android:layout_y="308dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Garlic"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark13"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="275dp"
+            android:layout_y="309dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Meat"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark9"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="137dp"
+            android:layout_y="208dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Fish"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark2"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="14dp"
+            android:layout_y="7dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Milk"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="146dp"
+            android:layout_y="6dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="eggs"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark3"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="140dp"
+            android:layout_y="108dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Soya"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark6"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="11dp"
+            android:layout_y="204dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Soy"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark8"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="144dp"
+            android:layout_y="308dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Shellfish"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark11"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="265dp"
+            android:layout_y="208dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Hot peppers"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark10"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="274dp"
+            android:layout_y="205dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Hot peppers"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark7"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="274dp"
+            android:layout_y="103dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Wheat"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark5"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="8dp"
+            android:layout_y="107dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Tree Nuts"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark4"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="278dp"
+            android:layout_y="5dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Peanuts"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/toFoodFromButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="155dp"
+            android:layout_y="437dp"
+            android:background="@color/white"
+            android:text="Continue" />
+
+    </AbsoluteLayout>
+
+
+</LinearLayout>

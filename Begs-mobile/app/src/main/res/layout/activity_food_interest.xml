@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.activities.FoodInterestActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/htab_toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:text="Back"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:background="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Clear" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="I want food from..."
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mark2"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="32dp"
+            android:layout_y="50dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Local farmers"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="95dp"
+            android:layout_y="244dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Everywhere"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mark4"
+            android:layout_width="128dp"
+            android:layout_height="97dp"
+            android:layout_x="259dp"
+            android:layout_y="91dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"
+            android:text="Small shops"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/toIwantToButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="161dp"
+            android:layout_y="395dp"
+            android:background="@color/white"
+            android:text="Continue" />
+
+    </AbsoluteLayout>
+
+
+</LinearLayout>

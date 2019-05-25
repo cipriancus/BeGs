@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/htab_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/user_icon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/color_black" />
+
+        <TextView
+            android:id="@+id/profileDetailsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Profile details"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ciprian"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/color_black" />
+
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Out to improve life"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/color_black" />
+
+        <TextView
+            android:id="@+id/restrictions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="My Restrictions"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/color_black" />
+
+        <RelativeLayout
+            android:layout_width="171dp"
+            android:layout_height="26dp">
+
+            <ImageView
+                android:id="@+id/fbIcon"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/facebook_icon" />
+
+            <TextView
+                android:id="@+id/fbConnect"
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@+id/fbIcon"
+                android:gravity="center"
+                android:text="Disconnect"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/color_black" />
+
+        <RelativeLayout
+            android:layout_width="171dp"
+            android:layout_height="26dp">
+
+            <ImageView
+                android:id="@+id/twIcon"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/tw_icon" />
+
+            <TextView
+                android:id="@+id/twConnect"
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@+id/twIcon"
+                android:gravity="center"
+                android:text="Disconnect"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/color_black" />
+
+        <RelativeLayout
+            android:layout_width="171dp"
+            android:layout_height="26dp">
+
+            <ImageView
+                android:id="@+id/inIcon"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/in_icon" />
+
+            <TextView
+                android:id="@+id/inConnect"
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@+id/inIcon"
+                android:gravity="center"
+                android:text="Disconnect"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/color_black" />
+
+        <RelativeLayout
+            android:layout_width="171dp"
+            android:layout_height="26dp">
+
+            <ImageView
+                android:id="@+id/goIcon"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/google_icon" />
+
+            <TextView
+                android:id="@+id/goConnect"
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@+id/goIcon"
+                android:gravity="center"
+                android:text="Disconnect"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@color/color_black" />
+
+        <Button
+            android:id="@+id/logOut"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Log out"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

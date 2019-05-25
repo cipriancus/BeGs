@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Begs Shop</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_home">Home</string>
+    <string name="empty_text">Select song from below to play</string>
+    <string name="standard">Standard</string>
+    <string name="title_changelog">Change log</string>
+    <string name="changelog_close">Close</string>
+    <string name="action_hide">Hide Panel</string>
+    <string name="action_show">Show Panel</string>
+    <string name="action_anchor_enable">Enable Anchor Point</string>
+    <string name="action_anchor_disable">Disable Anchor Point</string>
+    <string name="idle">Idle</string>
+    <string name="crash_toast_text">Oops I Crashed</string>
+    <string name="checkout">CheckOut</string>
+    <string name="similar_product">Often bought with</string>
+    <string name="slogan">Best Food</string>
+    <string name="email_developer_">Email Developer:</string>
+    <string name="personal_website_">Personal Website :</string>
+    <string name="site_begs">www.begs.com</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="mob_num">0741025591</string>
+    <string name="lab_locations">Locations</string>
+    <string name="pune">IASI</string>
+    <string name="address_value">Str General Betherlot</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_location">Map</string>
+
+</resources>
