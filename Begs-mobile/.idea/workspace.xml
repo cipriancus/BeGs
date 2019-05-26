@@ -119,7 +119,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/frag_product_detail.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="9231">
@@ -127,6 +127,15 @@
             </state>
           </provider>
           <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/begs/mobile/view/activities/SplashActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -244,16 +253,16 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_category_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/toolbar_spinner.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/begs/mobile/view/activities/ECartHomeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/begs/mobile/view/activities/SplashActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/drawer_header.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/frag_product_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/begs/mobile/view/activities/SplashActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="1943" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="1944" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -262,6 +271,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -557,8 +567,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -588,11 +596,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.recentlyUsedThemes" value="Base.Theme.AppCompat" />
     <property name="device.picker.selection" value="Pixel_XL_API_28" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BeGs/Begs-mobile" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -837,7 +847,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32862645" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50030696" side_tool="true" weight="0.32991013" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32991013" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49846533" weight="0.33376125" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49846533" visible="true" weight="0.33376125" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32862645" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.3296501" />
@@ -1199,13 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/begs/mobile/view/activities/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/begs/mobile/view/activities/ECartHomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -1244,6 +1247,13 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/begs/mobile/view/activities/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
